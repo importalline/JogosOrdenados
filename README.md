@@ -1,18 +1,18 @@
-## Getting Started
+### JogosOrdenados
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Sobre
+Repositório para a disciplina Estruturas de Dados e Análise de Algoritmos que implementa em Java algoritmos para ordenar e organizar informações de jogos a partir de arquivos CSV. O projeto lê um CSV de entrada com jogos desordenados e gera CSVs ordenados por critérios como avaliação e categoria.
 
-## Folder Structure
+### Estrutura
+- **src**: código-fonte Java.  
+- **bin**: arquivos compilados gerados.  
+- **JogosDesordenados.csv**: arquivo de entrada com dados brutos.  
+- **JogosOrdenadosporAvaliacao.csv**: saída ordenada por avaliação.  
+- **JogosOrdenadosporCategoria.csv**: saída ordenada por categoria.  
+- **README.md**: documentação do projeto.
 
-The workspace contains two folders by default, where:
+### Requisitos
+- **Java** 11 ou superior.  
+- Ferramentas opcionais: **Maven** ou **Gradle** para build automatizado.  
+- Terminal ou prompt de comando para compilação e execução.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
